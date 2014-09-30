@@ -456,12 +456,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/yii2-bootstrap.git",
-                "reference": "71d5e817161704eb501141c149d688ed07db68c0"
+                "reference": "362bda685d5d9424bf59ad315d7c76fbde27bdc7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-bootstrap/zipball/71d5e817161704eb501141c149d688ed07db68c0",
-                "reference": "71d5e817161704eb501141c149d688ed07db68c0",
+                "url": "https://api.github.com/repos/yiisoft/yii2-bootstrap/zipball/362bda685d5d9424bf59ad315d7c76fbde27bdc7",
+                "reference": "362bda685d5d9424bf59ad315d7c76fbde27bdc7",
                 "shasum": ""
             },
             "require": {
@@ -494,7 +494,7 @@
                 "bootstrap",
                 "yii2"
             ],
-            "time": "2014-09-30 08:15:28"
+            "time": "2014-09-30 20:46:56"
         },
         {
             "name": "yiisoft/yii2-composer",
