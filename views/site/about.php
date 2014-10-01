@@ -9,8 +9,7 @@ $this->params['breadcrumbs'][] = $this->title;
     <h1><?= Html::encode($this->title) ?></h1>
 
     <p>
-        This is the About page. You may modify the following file to customize its content:
-    </p>
+	This app was written by Jyrone Parker to demonstrate the ease of the Yii 2 PHP framework. Also to show how to utilize REST API's. For more info please go  <a href="http://www.jyroneparker.com">HERE</a>    
+</p>
 
-    <code><?= __FILE__ ?></code>
 </div>

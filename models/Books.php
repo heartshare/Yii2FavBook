@@ -44,4 +44,14 @@ class Books extends \yii\db\ActiveRecord
             'author' => 'Author',
         ];
     }
+public function beforeSave($insert)
+{
+    if ($this->isNewRecord)
+    {
+	//set the user id to id of user
+	$this->user_id = Yii::app->user->id;
+    }
+ 
+    return parent::beforeSave($insert);
+}
 }
